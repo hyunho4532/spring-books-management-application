@@ -1,6 +1,6 @@
 package com.group.libraryapp.user
 
-import com.group.libraryapp.domain.Book
+import com.group.libraryapp.domain.book.Book
 import com.group.libraryapp.user.loanhistory.UserLoanHistory
 import java.lang.IllegalArgumentException
 import javax.persistence.CascadeType
@@ -11,7 +11,7 @@ import javax.persistence.Id
 import javax.persistence.OneToMany
 
 @Entity
-class User (
+class User constructor (
 
     var name: String,
 
