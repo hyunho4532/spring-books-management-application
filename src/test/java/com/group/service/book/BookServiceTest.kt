@@ -1,6 +1,7 @@
 package com.group.service.book
 
-import com.group.libraryapp.domain.book.Book
+import com.group.libraryapp.domain.Book
+import com.group.libraryapp.domain.book.JavaBook
 import com.group.libraryapp.domain.book.BookRepository
 import com.group.libraryapp.domain.user.User
 import com.group.libraryapp.domain.user.UserRepository
@@ -16,7 +17,6 @@ import org.junit.jupiter.api.DisplayName
 import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.assertThrows
 import org.springframework.beans.factory.annotation.Autowired
-import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
